@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import RequestFormButton from './RequestFormButton'
 
-export default function SubmitForm() {
+function SubmitForm() {
   return (
     <div style={{display: "flex"}}>
       <form style={{display: "inline-block"}}>
@@ -24,3 +24,5 @@ export default function SubmitForm() {
     </div>
   );
 }
+
+export default SubmitForm

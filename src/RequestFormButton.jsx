@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 
 
-export default function RequestFormButton() {
+function RequestFormButton() {
   return (
     <div>
       <button>
@@ -12,3 +12,5 @@ export default function RequestFormButton() {
     </div>
   );
 }
+
+export default RequestFormButton
